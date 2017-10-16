@@ -5,83 +5,107 @@
         <title>Jared Fitzpatrick</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/webpage_style.css">
     </head>
 
-    <body class="blue-text">
+    <body class="body-basics">
         <!--page content-->
             <!--navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <a class="navbar-brand" href="#home">Home</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="container-fluid" id="home">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <a class="navbar-brand" href="#home">
+                            <img src="./img/JaredFitz.png" width="326" height="47" alt="">
+                        </a>
+                        <div class="navbar">
+                            <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-item nav-link" href="#skills">Skills</a>
+                            <!--<a class="nav-item nav-link" href="#about">About</a>-->
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
             <!--/navigation-->
-
-
-            <img id="home" src="./img/Glacier Pano.jpg" class="img-fluid" alt="">
-            <h1>This is my website!</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h1>Testing scrolling</h1>
-
-
             
+            <!--jumbotron-->
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1>Jared Fitzpatrick</h1>
+                </div>
+            </div>
+            <!--/jumbotron-->
+
+            <!--portfolio-->
+            <section id="portfolio" >
+                <div class="card-group">
+                    <div class="card bg-dark card-border">
+                        <a href="./Space Project/index.html" target="_blank">
+                            <img class="card-img-top" src="./img/space-webpage.jpg" alt="Screenshot of Space Page" href="./Space Project/index.html">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">Space Project</h4>
+                            <p class="card-text">Done using HTML5 and CSS3 for an example of designing a webpage.  This is an example of the design without a website functionality.</p>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <img class="card-img-top" src="./img/TBD.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Future Project</h4>
+                            <p class="card-text">tbd</p>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <img class="card-img-top" src="./img/TBD.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Future Project</h4>
+                            <p class="card-text">tbd</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/portfolio-->
+<br>
+            <!--about-->
+            <section id="skills">
+                <h1>Skills</h1>
+                <img src="./img/HTML5-logo.png" alt="" data-toggle="tooltip" title="HTML5">
+                <img src="./img/css-logo.svg" alt="" data-toggle="tooltip" title="CSS3" height="128" class="img-separate">
+
+                
+            </section>
+            <!--/about-->  
+<br>
+<br>
+            <!--about-->
+            <!--<section id="about">
+                <p>about</p>
+            </section>-->
+            <!--/about-->
+
+            <!--contact-->
+            <section id="contact">
+                <h1>Contact</h1>
+                <div class="container">
+                    <div class="column-left">email: jaredjfitzpatrick@gmail.com</div>
+                    <div class="column-center">
+                        <a href="https://github.com/JaredFitz" target="_blank"> github: https://github.com/JaredFitz</a>
+                    </div>
+                    <div class="column-right">(541)219-2741</div>
+                </div>
+            </section>
+            <!--/contact-->
+<br>
             <!--footer-->
+            <section id="footer">
 
+            </section>
             <!--/footer-->
-
+            
         <!--page content-->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
