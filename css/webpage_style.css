@@ -59,3 +59,7 @@
     display: inline-block; width: 33%; 
     text-align: center;
 }
+
+.navbar-default {
+    color: #007BFF;
+}
