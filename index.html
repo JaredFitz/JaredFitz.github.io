@@ -1,134 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
-        <title>Jared Fitzpatrick</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/webpage_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/styling.css" type="text/css">
+        <title>Jared Fitzpatrick</title>
     </head>
 
-    <body class="body-basics">
-        <!--page content-->
-            <!--navigation-->
-            <div class="container-fluid" id="home">
-                <nav class="navbar navbar-default fixed-top navbar-expand-lg navbar-dark bg-dark">
-                        <a class="navbar-brand" href="#home">
-                            <img src="./img/JaredFitz.png" width="326" height="47" alt="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-item nav-link" href="#skills">Skills</a>
-                                </li>
-                                <!--<li class="nav-item active">
-                                    <a class="nav-item nav-link" href="#about">About</a>-->
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-item nav-link" href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-            <!--/navigation-->
-            
-            <!--jumbotron-->
-            <div class="jumbotron">
-                <div class="container-fluid">
+    <body>
+        <!-- NavBar -->
+        <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              </ul>
+        <!-- /NavBar -->
+        <div id="home"></div>
+        <section id="background-1" class="background bg-1 text-center vertical-center">
+            <div class="container-fluid">
                     <h1>Jared Fitzpatrick</h1>
+                    <h2>Developer</h2>
+            </div>
+        </section>
+        <div class="divider"></div>
+
+        <!-- Portfolio Section -->
+        <div class="container" id="portfolio">
+            <h1 class="sectionTitle">Portfolio</h1>
+            <br/>
+            <div class="flex-container">
+                <!-- photoContainer1 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/pizza-website.png" alt="">
+                        <div class="photo-overlay">
+                            <h2>HTML/CSS/JavaScript</h2><br/><br/>
+                            <p>Example pizza ordering website with design in HTML and CSS and functionality in JavaScript</p>
+                            <h4><a href="./Pizza Order Project/index.html" target="_blank">View Site</a></h4>
+                            <h4><a href="https://github.com/JaredFitz/Tech-Academy-Projects/tree/master/Pizza%20Order%20Project" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer1 -->
+                <!-- photoContainer2 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/SQL example.png" alt="">
+                        <div class="photo-overlay">
+                            <h2>SQL</h2><br/><br/>
+                            <p>Example Library project to practice SQL.  Made a real-world example library of books and different library branches.  Multiple people had multiple books checked out and example queries were performed to check the library database for available books.</p>
+                            <h4><a href="https://github.com/JaredFitz/Tech-Academy-Projects/tree/master/SQL%20Library%20Project" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer2 -->
+                <!-- photoContainer3 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/ProjectEuler.png" alt="">
+                        <div class="photo-overlay">
+                            <h2>C#</h2><br/><br/>
+                            <h4></h4>
+                            <p>Project Euler challenges done using Visual Studio and C#.</p>
+                            <p>From the website: "Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. Although mathematics will help you arrive at elegant and efficient methods, the use of a computer and programming skills will be required to solve most problems."</p>
+                            <h4><a href="https://github.com/JaredFitz/Other-Projects/tree/master/C%23/ProjectEuler" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer3 -->
+                <!-- photoContainer4 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/Blackjack.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h2>Python</h2><br/><br/>
+                            <p>Blackjack game made after getting started with Python.  Allows the user to hit or stay and play against the dealer.</p>
+                            <h4><a href="https://github.com/JaredFitz/Other-Projects/tree/master/Python/Blackjack" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer4 -->
+                <!-- photoContainer5 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/Bee.jpg" alt="">
+                        <div class="photo-overlay">
+                            <h2>Various Languages</h2><br/><br/>
+                            <p>FizzBuzz challenge done in multiple languages.</p>
+                            <h4><a href="https://github.com/JaredFitz/FizzBuzz" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer5 -->
+                <!-- photoContainer6 -->
+                <div class="photo-container">
+                    <div class="photo">
+                        <img src="./img/pong.png" alt="">
+                        <div class="photo-overlay">
+                            <h2>JavaScript</h2><br/><br/>
+                            <p>Basic example of the classic Pong game.  Done using JavaScript and the canvas element in HTML.</p>
+                            <h4><a href="./pong.html" target="_blank">Play Game</a></h4>
+                            <h4><a href="https://github.com/JaredFitz/Other-Projects/tree/master/HTML-CSS-JavaScript/Pong" target="_blank">Source Code</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- /photoContainer6 -->
+            </div>
+        </div>
+        <!-- /Portfolio -->
+
+        <section id="background-2" class="background bg-2 text-center vertical-center">
+            <div class="container-fluid">
+                    <h2><i>"Truth can only be found in one place: the code."</i></h2>
+                    <h3>-Robert C. Martin, Clean Code</h3>
+            </div>
+        </section>
+        <div class="divider"></div>
+
+        <!-- Skills -->
+        <div class="container" id="skills">
+            <h1 class="sectionTitle">Skills</h1>
+            <br/>
+            <div class="skills-container">
+                <div class="logo-container">
+                    <img src="./img/HTML5-logo.png" class="logos" alt="" data-toggle="tooltip" title="HTML5">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/css-logo.svg" class="logos" alt="" data-toggle="tooltip" title="CSS3" height="128">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/bootstrap-logo.png" class="logos" alt="" data-toggle="tooltip" title="Bootstrap" height="128">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/sql-logo.png" class="logos" alt="" data-toggle="tooltip" title="SQL" height="128">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/VBA-logo.png" class="logos" alt="" data-toggle="tooltip" title="VBA" height="128">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/CSharp-logo.png" class="logos" alt="" data-toggle="tooltip" title="C#" height="128">
+                </div>
+                <div class="logo-container">
+                    <img src="./img/ASP.NET-logo.png" class="logos" alt="" data-toggle="tooltip" title="ASP.NET" height="128">
                 </div>
             </div>
-            <!--/jumbotron-->
+        </div>
+        <!-- /Skills -->
+        <div id="about"></div>
+        <section id="background-3" class="background bg-3 text-center vertical-center">
+            <div class="container-fluid">
+                    <h2>Who am I?</h2>
+                    <p>Based out of Portland, OR, I began my career into software development after working as a Chemical Engineer for the last few years.  I have a passion for finding a solution to problems in new ways.  I love coding and can't wait to continue my career in it.</p>
+                    <br/>
+                    <p>In my free time I enjoy playing Ultimate Frisbee, hiking, board games, video games, and all things Trail Blazers.</p>
+            </div>
+        </section>
+        <div class="divider"></div>
 
-            <!--portfolio-->
-            <section id="portfolio" >
-                <div class="card-group">
-                    <div class="card bg-dark card-border">
-                        <a href="./Space Project/index.html" target="_blank">
-                            <img class="card-img-top" src="./img/space-webpage.jpg" alt="Screenshot of Space Page" href="./Space Project/index.html">
-                        </a>
-                        <div class="card-body">
-                            <h4 class="card-title">Space Project</h4>
-                            <p class="card-text">Done using HTML5 and CSS3 for an example of designing a webpage.  This is an example of the design without a website functionality.</p>
-                        </div>
-                    </div>
-                    <div class="card bg-dark">
-                        <a href="./Pizza Order Project/index.html" target="_blank">
-                            <img class="card-img-top" src="./img/pizza-website.PNG" alt="Screenshot of Pizza Page">
-                        </a>
-                        <div class="card-body">
-                            <h4 class="card-title">Pizza Ordering Project</h4>
-                            <p class="card-text">Done using HTML, CSS, and JavaScript.  JavaScript was used to calculate total pizza cost based on topping selections.</p>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                    <div class="card bg-dark">
-                        <img class="card-img-top" src="./img/TBD.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Future Project</h4>
-                            <p class="card-text">tbd</p>
-                        </div>
-                    </div>
+        <div class="container" id="contact">
+            <h1 class="sectionTitle">Contact Me</h1>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-3" style="text-align: left">
+                    <h3>https://github.com/JaredFitz</h3>
                 </div>
-            </section>
-            <!--/portfolio-->
-<br>
-            <!--about-->
-            <section id="skills">
-                <h1>Skills</h1>
-                <img src="./img/HTML5-logo.png" alt="" data-toggle="tooltip" title="HTML5">
-                <img src="./img/css-logo.svg" alt="" data-toggle="tooltip" title="CSS3" height="128" class="img-separate">
-                <img src="./img/sql-logo.png" alt="" data-toggle="tooltip" title="SQL" height="128" class="img-separate">
-                
-            </section>
-            <!--/about-->  
-<br>
-<br>
-            <!--about-->
-            <!--<section id="about">
-                <p>about</p>
-            </section>-->
-            <!--/about-->
-
-            <!--contact-->
-            <section id="contact">
-                <h1>Contact</h1>
-                <div class="container">
-                    <div class="row" style="text-align: center">
-                        <div class="col-md-4">email: jaredjfitzpatrick@gmail.com</div>
-                        <div class="col-md-4">
-                            <a href="https://github.com/JaredFitz" target="_blank">github: https://github.com/JaredFitz</a>
-                        </div>
-                        <div class="col-md-4">(541)219-2741</div>
-                    </div>  
+                <div class="col-6" style="text-align: center">
+                    <h3>linkedin</h3>
                 </div>
-            </section>
-            <!--/contact-->
-<br>
-            <!--footer-->
-            <section id="footer">
-
-            </section>
-            <!--/footer-->
-            
-        <!--page content-->
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+                <div class="col-3" style="text-align: right">
+                    <h3>Email</h3>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
