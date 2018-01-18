@@ -7,7 +7,6 @@ html {
 
 body { 
     background-color: black;
-    line-height: 1.42857143;
     color: #fff;
 }
 
@@ -114,6 +113,10 @@ h1 {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s visibility 0.5s;
+}
+
+.photo-overlay p {
+    line-height: 120%;
 }
 
 .photo:hover .photo-overlay {
